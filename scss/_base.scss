@@ -17,6 +17,22 @@ body {
     max-width: 500px;
     width: 100%;
 }
+.stitched {
+   padding: 20px;
+   background: $color;
+   color: colorchange-background;
+   font-size: 38px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-radius: 2px;
+   font-weight: normal;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
 
 h1, h2 {
     @include headline-font;

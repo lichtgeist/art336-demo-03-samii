@@ -11,8 +11,8 @@ Globals
 
 // Site variable
 $color: #242424;
-$background-color: #beeaff;
-$background-color-alternate: #d8c0ff;
+$background-color: #EF0A5D;
+$background-color-alternate: #D9EF0A;
 
 
 // Mixin that will include the fall back px declaration as well as the calculated rem value.
@@ -22,7 +22,7 @@ $background-color-alternate: #d8c0ff;
 }
 
 @mixin body-font-regular {
-    font-family: "adelle","Georgia",serif;
+    font-family: "expo-sans-pro","Georgia",serif;
     font-style: normal;
     font-weight: 300;
 }
@@ -40,9 +40,9 @@ $background-color-alternate: #d8c0ff;
 }
 
 @mixin headline-font {
-    font-family: "cubano",helvetica,verdana,sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: "expo-sans-pro",helvetica,verdana,sans-serif;
+    font-style: bold;
+    font-weight: 700;
 }
 
 @mixin reversed-background-font {
@@ -61,3 +61,4 @@ $background-color-alternate: #d8c0ff;
     50% { color: $background-color-alternate; }
     100% { color: $background-color; }
 }
+
